@@ -51,6 +51,27 @@ public class Main {
 
             i++;
         }*/
+
+        String[] students = new String[3];
+
+        students[0]="Halis";
+        students[1]= "Sumeyye";
+        students[2]="Sahin";
+
+        for (int i = 0 ; i<students.length;i++){
+            System.out.println(students[i]);
+        }
+
+        for (String student : students){
+            System.out.println(student);
+        }
+
+        String[][] multiArray = new String[2][3];
+
+        
+
+
+
     }
 
 
