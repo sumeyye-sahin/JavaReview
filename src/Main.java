@@ -50,7 +50,7 @@ public class Main {
             System.out.println(i);
 
             i++;
-        }*/
+        }
 
         String[] students = new String[3];
 
@@ -66,9 +66,11 @@ public class Main {
             System.out.println(student);
         }
 
-        String[][] multiArray = new String[2][3];
+        String[][] multiArray = new String[2][3];*/
 
-        
+        CustomerManager customerManager = new CustomerManager();
+        customerManager.Add();
+        customerManager.Update(); 
 
 
 
