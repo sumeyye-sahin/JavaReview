@@ -19,10 +19,10 @@ public class Main {
         int num = 6;
 
 
-        System.out.println(komut +" "+ num);*/
+        System.out.println(komut +" "+ num);
 
 
-        char grade = 'a';
+        char grade = 'b';
 
         switch (grade) {
             case 'a':
@@ -30,13 +30,27 @@ public class Main {
                 break;
 
             case 'b':
+            case 'c':
                 System.out.println("fena değil");
                 break;
 
             default:
                 System.out.println("Geçersiz not");
-        }
+        }*/
 
+        // for
+/*
+        for (int i=0;i<=10;i++){
+            System.out.println(i);
+        }
+*/
+/*
+        int i =0;
+        while (i<10){
+            System.out.println(i);
+
+            i++;
+        }*/
     }
 
 
